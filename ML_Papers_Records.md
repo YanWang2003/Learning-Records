@@ -75,3 +75,15 @@ Besides, the thought of Data Augmentation derives from these hypothesis and obse
 - **Methods to Calculate $L_c$:**
 	 1. For $i$ in $0-Lc$, use random sample to construct a new set with $L_c$ samples and then calculate the accuracy of classification. If the accuracy is larger than the threshold, $L_c = L_{c_{former}}+1$.
 	 2. Else $L_c = L_{c_{former}}-1$
+* * *
+# V. [Tailoring Self-Supervision for Supervised Learning](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136850342.pdf)
+## Main Idea
+Two Rotation Strategy
+- LoRot-I : Use a fix-sized window to randomly select an area, then rotate the selected area 90 degrees.
+- LoRot-E : Separate a photo into many cells and then randomly choose an area to rotate 90 degrees.
+***
+## Affinity
+$Affinity = \frac{A(m, D'_{val})}{A(m, D_{val})}$
+
+Affinity can be used to evaluate the degree of data distribution shift.
+* * *
