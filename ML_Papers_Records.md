@@ -83,7 +83,8 @@ Two Rotation Strategy
 - LoRot-E : Separate a photo into many cells and then randomly choose an area to rotate 90 degrees.
 ***
 ## Affinity
-$Affinity=\frac{A(m, D'_{val})}{A(m, D_{val})}$
+
+$Affinity=\frac{A(m, D'{val})}{A(m, D{val})}$
 
 Affinity can be used to evaluate the degree of data distribution shift.
 * * *
